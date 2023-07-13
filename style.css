@@ -79,8 +79,8 @@ i {
 
 .social-links i {
   background-color: #37466c;
-  padding: 6px;
-  margin: 6px 0px;
+  padding: 8px;
+  margin: 6px 2px;
   border-radius: 4px;
 }
 
@@ -125,6 +125,10 @@ select {
   .contact::after {
     grid-column: span 4;
     margin: 30px auto;
+  }
+  .social-links i {
+    margin-right: 6px;
+    font-size: 14px;
   }
   .chip {
     padding: 4px;
