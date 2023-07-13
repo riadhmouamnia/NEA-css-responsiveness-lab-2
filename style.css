@@ -11,7 +11,7 @@
 body {
   width: 100%;
   height: 100vh;
-  padding: 50px 0px;
+  padding: 100px 0px;
 }
 
 p,
@@ -41,8 +41,7 @@ footer {
 .contact::after {
   content: "";
   width: 100%;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin: 20px auto;
   border-bottom: 1.5px solid #3a4c7c;
 }
 
@@ -58,6 +57,7 @@ a {
 
 .chip {
   padding: 6px 10px;
+  width: 90px;
   background-color: #f5ca99;
   color: #2d3d64;
   text-align: center;
@@ -113,7 +113,7 @@ select {
   }
   .contact {
     width: 100%;
-    margin: 50px auto;
+    margin: 10px auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 50px;
@@ -124,9 +124,10 @@ select {
   }
   .contact::after {
     grid-column: span 4;
+    margin: 30px auto;
   }
   .chip {
-    padding: 6px 10px;
+    padding: 4px;
     display: inline-block;
     border-radius: 2rem;
   }
@@ -159,7 +160,7 @@ select {
     display: grid;
     grid-template-columns: 1.7fr 1fr 1fr 1fr 1fr;
     gap: 10px;
-    padding: 20px 10px;
+    padding: 10px;
     justify-content: center;
   }
   .contact > div:first-child {
@@ -167,6 +168,7 @@ select {
   }
   .contact::after {
     grid-column: span 5;
+    margin: 10px auto;
   }
   .copy-rights p {
     text-align: center;
@@ -174,6 +176,6 @@ select {
     max-width: 800px;
     line-height: 1.5rem;
     opacity: 0.5;
-    margin: 15px auto;
+    margin: 0px auto;
   }
 }
